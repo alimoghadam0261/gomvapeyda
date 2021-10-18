@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.side-bar{
+    width: 100%;
+    height: auto;
+    background: #0f6674;
+    color: white;
+    text-align: center;
+}
+.side-bar a{
+    color:yellow;
+    text-decoration: none;
+    text-align: center;
+}
+
+.ul-sidebar{
+    list-style: none;
+    color: yellow;
+    line-height: 4;
+    transition: 1s;
+    cursor: pointer;
+
+}
+.ul-sidebar li{
+    display: none;
+    color: white;
+    transition: 1s;
+    transition-delay: 1s;
+}
+.ul-sidebar li:hover{
+    color: #3cee00;
+}
+.ul-sidebar li a{
+    color: white;
+}
+.ul-sidebar li a:hover{
+    color: #3cee00;
+}
+.ul-sidebar:hover >li{
+    display: block;
+    transition: .3s;
+
+}
